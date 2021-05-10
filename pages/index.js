@@ -10,11 +10,13 @@ const Home = ({ lesson }) => {
         <div className="flex flex-col self-stretch">
           <p className="text-center text-4xl mt-32 font-bold">
             This is the demo of a{' '}
-            <strong className="text-pink-800 font-bold">template</strong> you
-            <br className="hidden sm:inline" /> can use to create{' '}
-            <strong className="text-pink-800 font-bold">
-              courses with Next.js
-            </strong>
+            <strong className="text-pink-800 font-bold">course</strong> you
+            <br className="hidden sm:inline" /> can take with the
+            <a href="https://github.com/jsjoeio/jp-courses-install">
+              <strong className="text-pink-800 font-bold">
+                jp-courses CLI
+              </strong>
+            </a>
             .
           </p>
         </div>
@@ -30,9 +32,9 @@ const Home = ({ lesson }) => {
           </p>
 
           <p className="text-center text-2xl mt-6 text-gray-500 leading-8">
-            I created this template for my{' '}
-            <a href="https://useeffect.dev" className="text-pink-800">
-              course on React hooks
+            I created this demo to prep for an upcoming{' '}
+            <a href="https://t.me/jsjoeio_ts_course" className="text-pink-800">
+              course on TypeScript
             </a>
             .
           </p>
@@ -44,7 +46,7 @@ const Home = ({ lesson }) => {
 
           <div className="text-center mt-8">
             <a
-              href="https://github.com/scastiel/nextjs-course-template"
+              href="https://github.com/jsjoeio/demo-course"
               className="btn btn-primary btn-big"
             >
               Go to the GitHub repo
