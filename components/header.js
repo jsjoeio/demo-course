@@ -4,9 +4,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between p-2 border-b border-gray-200">
       <Link href="/">
-        <a className="text-pink-800 text-lg flex space-x-2">
-          Next.js course template
-        </a>
+        <a className="text-pink-800 text-lg flex space-x-2">Demo Course</a>
       </Link>
       <nav>
         <ul className="flex space-x-4">
