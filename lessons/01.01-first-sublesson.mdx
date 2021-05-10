@@ -5,31 +5,45 @@ number: '1'
 parentSlug: '01-first-part'
 ---
 
-This is the first sublesson of first part.
+This is the first sublesson of the first part.
 
-Here is a preview of what you can do in your course content.
+Here is a preview of what you might see in a sublesson.
 
-You _can use_ all kinds of **formatting** as you would with Markdown!
+Code samples will show up like this:
 
 ```jsx
-const feature = `
-  You can embed source code in a lot of languages!
-`
+const example = `You can embed source code in a lot of languages!`
 ```
 
-## And even better
+## Interactive Browser Examples
+
+One of the coolest parts is that we can use interactive browser examples like
+this one.
+
+Try changing the "reader" in `name="reader"` with your name!
 
 ```jsx live
 const Greetings = ({ name }) => {
   return (
     <>
       <p>Hey {name}!</p>
-      <p>
-        You can even embed <em>interactive</em> and <em>editable</em> examples!
-      </p>
+      <p>Did anyone ever tell you how awesome you are?</p>
     </>
   )
 }
 
-render(() => <Greetings name="dear reader" />)
+render(() => <Greetings name="reader" />)
 ```
+
+## Practice
+
+Other examples of hands-on practice include:
+
+- exercises
+- quizzes
+- reflection questions
+
+These will be verifiable using the CLI. We'll also help you track your progress
+throughout the course.
+
+More details coming soon!
